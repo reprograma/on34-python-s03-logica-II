@@ -2,7 +2,7 @@
   <img src="assets/reprograma-fundos-claros.png" alt="logo reprograma" width="500">
 </h1>
 
-# Tema da Aula
+# Condicionais, operadores lógicos, erros e exceções
 
 Turma Online On34 | Python | Semana 03 | 2024 | <a href="https://www.linkedin.com/in/erikacamposdesign/" target="_blank" rel="noopener noreferrer">Professora Erika Campos</a>
 
