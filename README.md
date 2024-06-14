@@ -6,72 +6,70 @@
 
 Turma Online On34 | Python | Semana 03 | 2024 | <a href="https://www.linkedin.com/in/erikacamposdesign/" target="_blank" rel="noopener noreferrer">Professora Erika Campos</a>
 
-### Instruções
+### Instruções 
 Antes de começar, vamos organizar nosso setup.
+
+Faça passo a passo os tópicos abaixo:
 * Fork esse repositório 
 * Clone o fork na sua máquina (Para isso basta abrir o seu terminal e digitar `git clone url-do-seu-repositorio-forkado`)
-* Entre na pasta do seu repositório (Para isso basta abrir o seu terminal e digitar `cd nome-do-seu-repositorio-forkado`)
+* Entre na pasta do seu repositório. Para isso basta abrir o seu terminal e digitar `cd nome-do-seu-repositorio-forkado`. 
 * [Add outras intrucoes caso necessario]
 
-### Resumo
-O que veremos na aula de hoje?
-* [Tema1](#tema1)
-* [Tema2](#tema2)
-* [Tema3](#tema3)
-
 ## Conteúdo
-### Tema1 
-1. [Tópico 1](#topico1)
-2. [Tópico 2](#topico2)
-### Tema2 
-1. [Tópico 3](#topico3)
-   * [Subtópico 1](#subtopico1)
-   * [Subtópico 2](#subtopico2)
+### Condicionais
+1. If
+2. Else
+3. Elif
+### Operadores Relacionais 
+| Operador | Descrição | Exemplo | Resultado |
+| --- | --- | --- | --- |
+| == | igual | 1 == 1 | True |
+| == | igual | 1 == 3 | False |
+| != | diferente | 1 != 3 | True |
+| != | diferente | 1 != 1 | False |
+| > | maior que | 3 > 1 | True |
+| > | maior que | 1 > 3 | False |
+| >= | maior ou igual | 3 >= 1 | True |
+| >= | maior ou igual | 1 >= 3 | False |
+| >= | maior ou igual | 1 >= 1 | True |
+| < | menor que | 1 < 3 | True |
+| < | menor que | 3 < 1 | False |
+| <= | menor ou igual | 1 <= 3 | True |
+| <= | menor ou igual | 3 <= 1 | False |
+| <= | menor ou igual | 3 <= 3 | True |
    
-### Tema3
-1. [Tópico 4](#topico4)
+### Operadores Lógicos
+| Operador | Tradução |Descrição | Exemplo | Resultado |
+| --- | --- | --- | --- | --- |
+| and | e | True **e** True para ser True  | 1 != 3(True) and 1 < 3(True) | True |
+| and | e | Se True **e** False, é False | 1 != 3(True) and 1 > 3(False) | False |
+| or | ou | Só um **ou** outro precisa ser True | 1 == 3 or 1 < 3 | True |
+| or | ou | Se os dois dão False, é False | 1 == 3 or 1 > 3 | False |
+| not | não | Inverte o booleano | not False | True |
+| not | não | Inverte o booleano | not True | False |
 
-### Tema1 
+### Erros e seus tipos
+Vamos ver quais são os variados tipos de erros que você pode encontrar no caminho. Saber que existem é o primeiro passo para conseguir compreender e contornar ;) 
 
-#### Topico1
+### Usando o Debug do VSCode
+Vamos ver como trabalhar com a ferramenta que vai te mostrar o código passo a passo para você encontrar os problemas mais rápido.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Mauris pharetra dui quis turpis rutrum blandit. Nunc tempor libero tortor, ac commodo erat porttitor ut. Donec vitae orci arcu. Nunc felis mi, maximus a turpis a, mollis pulvinar enim. Vivamus aliquam ante dui, a blandit massa rutrum et. Etiam hendrerit gravida ultrices. Nunc ante massa, dictum eget justo eget, feugiat tincidunt metus.
+### Try e Except
+Não queremos que nosso usuário veja um erro feio na tela. Vamos evitar isso com Try e Except.
 
- #### Topico2
-  - Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-  - Donec erat mauris, laoreet in tortor vel
-  - Nunc ante massa, dictum eget justo eget, feugiat tincidunt.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Mauris pharetra dui quis turpis rutrum blandit.
-
-### Tema2
-#### Topico3
-* [Subtópico 1](#subtopico1)
-* [Subtópico 2](#Subtopico2)
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel.
-
-##### Subtopico1
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel.
-
-##### Subtopico2
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel.
-
-### Tema3
-#### Topico4
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Mauris pharetra dui quis turpis rutrum blandit. Nunc tempor libero tortor, ac commodo erat porttitor ut. Donec vitae orci arcu. Nunc felis mi, maximus a turpis a, mollis pulvinar enim. Vivamus aliquam ante dui, a blandit massa rutrum et. Etiam hendrerit gravida ultrices.
-
-***
 ### Exercícios 
 * [Exercicio para sala](https://github.com/mflilian/repo-example/tree/main/exercicios/para-sala)
 * [Exercicio para casa](https://github.com/mflilian/repo-example/tree/main/exercicios/para-casa)
 
 ### Material da aula 
+* [Slides da aula versão 1]()
+* [Exercícios para sala](https://github.com/mflilian/repo-example/tree/main/exercicios/para-sala)
 
-### Links Úteis
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
+### Para conhecer mais
+- [Exercícios de Estrutura de Decisão - Python Brasil](https://wiki.python.org.br/EstruturaDeDecisao)
+- [Curso em Vídeo - Condicionais parte 1](https://www.youtube.com/watch?v=K10u3XIf1-Q)
+- [Beecrowd - Plataforma de exercícios em português](http://www.beecrowd.com.br/)
+- [HackerRank - Plataforma de exercícios em inglês](https://www.hackerrank.com/)
 
 
 <p align="center">
