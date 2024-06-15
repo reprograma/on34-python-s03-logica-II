@@ -62,7 +62,7 @@ Não queremos que nosso usuário veja um erro feio na tela. Vamos evitar isso co
 * [Exercícios para casa](https://github.com/reprograma/on34-python-s03-logica-II/tree/main/exercicios/para-casa)
 
 ### Material da aula 
-* [Slides da aula versão 1]()
+* [Slides da aula versão 1](https://github.com/reprograma/on34-python-s03-logica-II/tree/main/material/Semana 3 - pré-aula.pdf)
 * [Exercícios dos slides](https://github.com/reprograma/on34-python-s03-logica-II/tree/main/exercicios/na-sala/exercicios%20dos%20slides)
 
 ### Para conhecer mais
