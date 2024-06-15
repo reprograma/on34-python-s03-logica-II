@@ -10,10 +10,10 @@ Turma Online On34 | Python | Semana 03 | 2024 | <a href="https://www.linkedin.co
 Antes de começar, vamos organizar nosso setup.
 
 Faça passo a passo os tópicos abaixo:
-* Fork esse repositório 
-* Clone o fork na sua máquina (Para isso basta abrir o seu terminal e digitar `git clone url-do-seu-repositorio-forkado`)
-* Entre na pasta do seu repositório. Para isso basta abrir o seu terminal e digitar `cd nome-do-seu-repositorio-forkado`. 
-* [Add outras intrucoes caso necessario]
+* Fork esse repositório. 
+* Clone o fork na sua máquina. Para isso basta abrir o seu terminal e digitar `git clone url-do-seu-repositorio-forkado`.
+* Entre na pasta do seu repositório. Para isso basta abrir o seu terminal e digitar `cd nome-do-seu-repositorio-forkado`.  
+* Agora você está pronta para trabalhar.
 
 ## Conteúdo
 ### Condicionais
@@ -43,8 +43,8 @@ Faça passo a passo os tópicos abaixo:
 | --- | --- | --- | --- | --- |
 | and | e | True **e** True para ser True  | 1 != 3(True) and 1 < 3(True) | True |
 | and | e | Se True **e** False, é False | 1 != 3(True) and 1 > 3(False) | False |
-| or | ou | Só um **ou** outro precisa ser True | 1 == 3 or 1 < 3 | True |
-| or | ou | Se os dois dão False, é False | 1 == 3 or 1 > 3 | False |
+| or | ou | Só um **ou** outro precisa ser True | 1 == 3 (False) or 1 < 3 (True) | True |
+| or | ou | Se os dois dão False, é False | 1 == 3 (False) or 1 > 3 (False) | False |
 | not | não | Inverte o booleano | not False | True |
 | not | não | Inverte o booleano | not True | False |
 
@@ -58,12 +58,12 @@ Vamos ver como trabalhar com a ferramenta que vai te mostrar o código passo a p
 Não queremos que nosso usuário veja um erro feio na tela. Vamos evitar isso com Try e Except.
 
 ### Exercícios 
-* [Exercicio para sala](https://github.com/mflilian/repo-example/tree/main/exercicios/para-sala)
-* [Exercicio para casa](https://github.com/mflilian/repo-example/tree/main/exercicios/para-casa)
+* [Exercícios na sala](https://github.com/reprograma/on34-python-s03-logica-II/tree/main/exercicios/na-sala)
+* [Exercícios para casa](https://github.com/reprograma/on34-python-s03-logica-II/tree/main/exercicios/para-casa)
 
 ### Material da aula 
 * [Slides da aula versão 1]()
-* [Exercícios para sala](https://github.com/mflilian/repo-example/tree/main/exercicios/para-sala)
+* [Exercícios dos slides](https://github.com/reprograma/on34-python-s03-logica-II/tree/main/exercicios/na-sala/exercicios%20dos%20slides)
 
 ### Para conhecer mais
 - [Exercícios de Estrutura de Decisão - Python Brasil](https://wiki.python.org.br/EstruturaDeDecisao)
@@ -73,6 +73,6 @@ Não queremos que nosso usuário veja um erro feio na tela. Vamos evitar isso co
 
 
 <p align="center">
-Desenvolvido com :purple_heart:  
+Desenvolvido com MUITO :purple_heart:  
 </p>
 
