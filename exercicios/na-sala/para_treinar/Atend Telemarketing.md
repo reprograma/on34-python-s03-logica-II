@@ -16,6 +16,9 @@ Ao responder 1, vai aparecer a frase:
 ***Você será direcionada para o Financeiro.***
 
 ### Bônus
-Após ser direcionada para o departamento, pergunte: se a pessoa quer deixar um recado para o (nome do departamento) ou falar com atendente.
-caso a pessoa escolha deixar recado, imprima: "Você pode deixar seu recado agora".
+Após ser direcionada para o departamento, pergunte: se a pessoa quer deixar um recado ou falar com atendente.
+Caso a pessoa escolha deixar recado, imprima: "Você pode deixar seu recado agora".
 Caso ela escolha falar com atendente, imprima: "Por favor, aguarde seu atendimento". 
+
+### Bônus 2
+Use funções ;)
