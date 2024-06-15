@@ -20,6 +20,7 @@ Faça passo a passo os tópicos abaixo:
 1. If
 2. Else
 3. Elif
+
 ### Operadores Relacionais 
 | Operador | Descrição | Exemplo | Resultado |
 | --- | --- | --- | --- |
@@ -60,6 +61,9 @@ Não queremos que nosso usuário veja um erro feio na tela. Vamos evitar isso co
 ### Exercícios 
 * [Exercícios na sala](https://github.com/reprograma/on34-python-s03-logica-II/tree/main/exercicios/na-sala)
 * [Exercícios para casa](https://github.com/reprograma/on34-python-s03-logica-II/tree/main/exercicios/para-casa)
+* [Exercícios de Estrutura de Decisão - Python Brasil](https://wiki.python.org.br/EstruturaDeDecisao)
+* [Beecrowd - Plataforma de exercícios em português](http://www.beecrowd.com.br/)
+* [HackerRank - Plataforma de exercícios em inglês](https://www.hackerrank.com/)
 
 ### Material da aula 
 * [Slides pré-aula](https://github.com/reprograma/on34-python-s03-logica-II/tree/main/material/Semana3_pre-aula.pdf)
@@ -67,10 +71,8 @@ Não queremos que nosso usuário veja um erro feio na tela. Vamos evitar isso co
 * [Exercícios para treinar](https://github.com/reprograma/on34-python-s03-logica-II/tree/main/exercicios/na-sala/para_treinar)
 
 ### Para conhecer mais
-- [Exercícios de Estrutura de Decisão - Python Brasil](https://wiki.python.org.br/EstruturaDeDecisao)
-- [Curso em Vídeo - Condicionais parte 1](https://www.youtube.com/watch?v=K10u3XIf1-Q)
-- [Beecrowd - Plataforma de exercícios em português](http://www.beecrowd.com.br/)
-- [HackerRank - Plataforma de exercícios em inglês](https://www.hackerrank.com/)
+* [Curso em Vídeo - Condicionais parte 1](https://www.youtube.com/watch?v=K10u3XIf1-Q)
+* [Automatize Tarefas Maçantes com Python, site em inglês, mas existe o livro em português](https://automatetheboringstuff.com/)
 
 
 <p align="center">
