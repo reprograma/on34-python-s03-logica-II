@@ -17,9 +17,9 @@ Faça passo a passo os tópicos abaixo:
 
 ## Conteúdo
 ### Condicionais
-1. If
-2. Else
-3. Elif
+* If
+* Else
+* Elif
 
 ### Operadores Relacionais 
 | Operador | Descrição | Exemplo | Resultado |
