@@ -62,8 +62,9 @@ Não queremos que nosso usuário veja um erro feio na tela. Vamos evitar isso co
 * [Exercícios para casa](https://github.com/reprograma/on34-python-s03-logica-II/tree/main/exercicios/para-casa)
 
 ### Material da aula 
-* [Slides da aula versão 1](https://github.com/reprograma/on34-python-s03-logica-II/tree/main/material/Semana 3 - pré-aula.pdf)
+* [Slides pré-aula](https://github.com/reprograma/on34-python-s03-logica-II/tree/main/material/Semana3_pre-aula.pdf)
 * [Exercícios dos slides](https://github.com/reprograma/on34-python-s03-logica-II/tree/main/exercicios/na-sala/exercicios%20dos%20slides)
+* [Exercícios para treinar](https://github.com/reprograma/on34-python-s03-logica-II/tree/main/exercicios/na-sala/para_treinar)
 
 ### Para conhecer mais
 - [Exercícios de Estrutura de Decisão - Python Brasil](https://wiki.python.org.br/EstruturaDeDecisao)
