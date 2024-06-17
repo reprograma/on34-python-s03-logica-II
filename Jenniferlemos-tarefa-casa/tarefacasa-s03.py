@@ -20,7 +20,7 @@ try:
     print("A distância não pode ser negativa. Por favor, tente novamente.")
   else:
     custo = calcular_custo_viagem(kms)
-    print(f"Sua viagem com {kms} km custará R$ {custo:.2f}")
+    print(f"Sua viagem com {kms} km custará R$ {custo}")
 
 except:
   print("Por favor, digite um número válido de quilômetros.")
