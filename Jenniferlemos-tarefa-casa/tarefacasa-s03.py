@@ -22,5 +22,5 @@ try:
     custo = calcular_custo_viagem(kms)
     print(f"Sua viagem com {kms} km custará R$ {custo:.2f}")
 
-except ValueError:
+except:
   print("Por favor, digite um número válido de quilômetros.")
