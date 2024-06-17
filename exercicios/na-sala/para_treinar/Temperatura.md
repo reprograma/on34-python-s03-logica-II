@@ -8,4 +8,5 @@ Faça um programa que peça a temperatura atual em graus Celsius e imprima como 
 | De 20 a 27 graus | dia agradável |
 | Abaixo de 20 graus | dia frio |
 
-**Bônus:** você pode começar perguntando se a entrada será em Celsius ou Fahrenheit e, se for em Fahrenheit, transformar em Celsius. O cálculo é (°F − 32) × 1,8 = °C.
+**Bônus**
+Você pode começar perguntando se a entrada será em Celsius ou Fahrenheit e, se for em Fahrenheit, transformar em Celsius. O cálculo é (°F - 32) / 1.8 = °C.
