@@ -8,14 +8,12 @@
 #mais de 500km	R$ 0,50
 #Calcule o valor e imprima a resposta como: Sua viagem com XX km custará R$ YY onde XX é o número de quilômetros e Y é o valor total a ser pago.
 #Seu programa não pode deixar o usuário:
-
 #calcular viagens com menos de 50km;
 #entrar com números negativos;
 #entrar com letras ou caracteres especiais que podem quebrar o programa.
 #Bônus: use função ;)
 
 import math
-
 
 def valor_variavel(km):
     y = 20.00
@@ -38,3 +36,5 @@ try:
    valor_variavel(km)
 except:
     print('Você não digitou um número válido!🚨')
+
+
