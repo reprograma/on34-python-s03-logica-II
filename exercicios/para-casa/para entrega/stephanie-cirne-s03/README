@@ -1,0 +1,24 @@
+# Exercício Semana s03 - Reprograma
+
+No desafio semanal criamos um sistema de orçamento para uma empresa de viagens de ônibus. O programa deve seguir as seguintes regras:
+
+
+**kms viajados x valor por km:**
+
+- Até 200km --> R$ 0,75
+
+- Até 500km --> R$ 0,60
+
+- mais de 500km --> R$ 0,50
+
+
+**Seu programa não pode deixar o usuário:**
+
+- Calcular viagens com menos de 50km; 
+- Entrar com números negativos;
+- Entrar com letras ou caracteres especiais que podem quebrar o programa.
+
+
+# Desafio pessoal
+
+Meu desafio pessoal no exercício foi trabalhar com funções, identação e try e except.
