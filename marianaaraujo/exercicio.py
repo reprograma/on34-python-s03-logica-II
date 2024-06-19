@@ -1,9 +1,7 @@
 # Exercicio
 
-import math
-
 def valor_variavel(km):
-    y = 20.00
+    y = 20
     x1 = (0.75 * km) + y
     x2 = (0.60 * km) + y
     x3 = (0.50 * km) + y
