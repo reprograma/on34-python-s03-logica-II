@@ -10,7 +10,7 @@ def calculo_viagem(kms):
 
     valor_base = 20.00
     
-    #operação matemática para calcular a função
+    # operação matemática para calcular a função
     valor_total = valor_base + (kms * valor_por_km)
     return valor_total
 
@@ -19,13 +19,13 @@ print("Olá, seja bem-vinda. Esse programa irá calcular o preço da sua viagem 
 entrada = input("Digite a quantidade de quilômetros da viagem: ")
 # colocar o formato que tem que ser
 try:
-     # Converter a entrada para float
+     # converter a entrada para float
     kms = float(entrada)
     if kms > 0:
         valor_viagem = calculo_viagem(kms)
 
     
-      # Imprimir o resultado e corrigir os erros
+      # imprimir o resultado e corrigir os erros
         print("Sua viagem com", kms, "km custará R$", valor_viagem)
     else:
         print("Por favor, digite um número maior que zero.")
