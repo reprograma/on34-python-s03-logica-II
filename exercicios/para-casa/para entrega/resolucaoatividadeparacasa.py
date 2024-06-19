@@ -18,10 +18,10 @@ try:
             valor_total = 20+km_viajado*valor_adicional
             print("Sua viagem com", km_viajado, "kms terá o valor de", valor_total, "reais.")
 
-    viagem(float(input("Boa tarde! Gostaria de saber quanto ficou sua viagem? Digite quantos km foram viajados no total, lembrando que nosso sistema não aceita caracteres \nespeciais, tampouco letras:")))
+    viagem(float(input("Boa tarde! Gostaria de saber quanto ficou sua viagem? Digite quantos km foram viajados no total, lembrando que nosso sistema não \naceita caracteres especiais, tampouco letras:")))
 
 except:  
-     print("Lembre-se, nosso sistema não aceita caracteres especiais nem letras :) Por favor, tente novamente")
+     print("Lembre-se, nosso sistema não aceita caracteres especiais nem letras :) Por favor, tente novamente.")
     
 
     
