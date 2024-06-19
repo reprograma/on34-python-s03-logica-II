@@ -16,6 +16,8 @@ entrar com números negativos;
 entrar com letras ou caracteres especiais que podem quebrar o programa.'''
 
 
+
+'''
 print("Calculando o preço da sua viagem:")
 valor_viagem = 20
 valor_por_km_rodado1 = 0.75
@@ -35,8 +37,32 @@ try:
     else:
          print("Você não pode digitar números negativos.Insira novamente um número válido!")
 except ValueError:
-    print("Entrada inválida. Por favor, digite um número válido.")
+    print("Entrada inválida. Por favor, digite um número válido.")'''
 
+#Ou com função
+
+print("Calculando o preço da sua viagem:")
+try:
+    def calc_viagem(km):
+        if km <= 200:
+            valor_por_km = 0.75
+        elif km <= 500:
+            valor_por_km = 0.60
+        else:
+            valor_por_km = 0.50
+        custo_total = 20 + km * valor_por_km
+        print("Sua viagem com ", km ," km custará R$ ", custo_total)
+
+    km = float(input("Digite a distância em km da viagem: "))
+
+    if km >= 50:
+        calc_viagem(km)
+    elif 0 <= km < 50 :
+        print("Não fazemos viagens com menos de 50 km")
+    else :
+         print("Você não pode digitar números negativos.Insira novamente um número válido!")
+except:
+    print("Entrada inválida. Por favor, digite um número válido")
 
 
 
