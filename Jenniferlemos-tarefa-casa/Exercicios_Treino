@@ -1,1 +1,11 @@
+## Nota ( Recuperação e Aprovação)
+
+nota = float(input("Qual sua nota de 0 a 10:  "))
+if nota >= 8:
+   print("Aprovada")
+elif nota >= 5:
+     print("Recuperação")
+else:
+  print("reprovada")
+print("fim")
 
