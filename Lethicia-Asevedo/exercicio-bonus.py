@@ -1,7 +1,6 @@
-## Exercício custo da viagem 
+## Exercício custo da viagem com função
 
-try:
-    km_viajado = float(input("Digite quantos Kms tem sua viagem: "))
+def calculo_viagem(km_viajado):
 
     if km_viajado < 0:
         print("Digite valores válidos por favor!")
@@ -16,6 +15,11 @@ try:
     else:
         valor_viagem = (km_viajado * 0.50) + 20.00
         print(f"Sua viagem com {km_viajado}kms custará R$ {valor_viagem}")
-        
-except :
-    print("Digite valores válidos por favor!")
+
+    return valor_viagem
+
+try:
+    distancia = float(input("Digite quantos Kms tem sua viagem por favor: "))
+    calculo_viagem(distancia)
+except:
+    print("Por favor, digite um valor válido.")
