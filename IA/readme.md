@@ -50,7 +50,7 @@ Todas utilizam algoritmos e grandes conjuntos de dados para treinar e aprimorar 
 ***Potencial para impactar a sociedade:***
 Todas têm o potencial de transformar diversas áreas da vida humana, impactando a economia, a cultura, a saúde e a forma como interagimos com o mundo.
     
-    ![Untitled](img/img3.png)
+![Untitled](img/img3.png)
 
 **DIFERENÇAS**
 |  Característica |                     IA Fraca |                   IA Forte |                 Super IA |
