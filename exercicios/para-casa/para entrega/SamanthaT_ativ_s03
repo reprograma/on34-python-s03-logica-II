@@ -1,0 +1,42 @@
+# Fazer um programa que calcule os preços das viagens.
+# valor fixo viagem 20,00
+# se rodar até 200 - 0,75 por km
+# se rodar até 500 - 0,60 por km
+# se rodar mais que 500 - 0,50 por km
+# O usuário não pode entrar com letras, valores negativos e menores que 50 ( try e except)
+
+
+def calculo_variavel(x,y):
+    km_rodado = x
+    fixo_viagem = y
+    if km_rodado <= 200:
+        valor_variavel= km_rodado*0.75
+        print (" O valor variável da sua viagem é :", valor_variavel)
+    elif km_rodado <= 500:
+        valor_variavel = km_rodado*0.60
+        print (" O valor variável da sua viagem é :", valor_variavel)
+    else:
+        valor_variavel = km_rodado*0.50
+        print (" O valor variável da sua viagem é :", valor_variavel)
+    
+    print ("O valor total da sua viagem é:" , fixo_viagem+valor_variavel)
+
+def limitacoes_usuario (z,w):
+    try:
+        km_rodado = float(z)
+        fixo_viagem = float(w)
+        if km_rodado <= 0:
+            print("Número inválido!")
+        elif km_rodado < 50:
+            print("Não há acréscimo de valor para viagens menores que 50km.")
+        else:
+            calculo_variavel(km_rodado, fixo_viagem)
+    except:
+        print("Digite um número válido")
+
+
+print ("O valor fixo da viagem é R$20,00")
+fixo_viagem = 20
+
+km_rodado = input("Quantos km você viajou?")
+limitacoes_usuario(km_rodado, fixo_viagem)
