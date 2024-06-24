@@ -21,31 +21,19 @@ ateduzentos_km = 0.75
 meio_km = 0.60
 maisde_meiokm = 0.5 
 '''
-dist_usuario = float(input("Para saber o valor da sua viagem, digite o número correpondente a distância:"))
-
-
-viagem1 = dist_usuario * (0.75 + 20)
-viagem2 = dist_usuario * (0.60 + 20)
-viagem3 = dist_usuario * (0.5 + 20)
-
 
 try:
+    dist_usuario = float(input("Para saber o valor da sua viagem, digite o número correpondente a distância:"))
    
-    if dist_usuario == int(input()):
-        print("Ingresse somente números. Tente novamente!")
-    elif dist_usuario <50:
+    if dist_usuario <50:
         print("Para que a sua passagem seja calculada, a distância deve ser maior que 50km. Tente novamente.")
-    elif dist_usuario <0:
-        print("Para que a sua passagem seja calculada, ingresse números positivos. Tente novamente.")
-    elif dist_usuario >0 and dist_usuario <=200:
-        print("Sua viagem de", dist_usuario, "km custará R$", viagem1)
-    elif dist_usuario >200 and dist_usuario <= 500:
-        print("Sua viagem de", dist_usuario, "km custará R$", viagem2)
-    elif dist_usuario > 500:
-        print("Sua viagem de", dist_usuario, "km custará R$", viagem3)
-    else: 
-        print("Opção inválida. Tente novamente!")
+    elif dist_usuario <200:
+        print("Sua viagem de", dist_usuario, "km custará R$", dist_usuario * 0.75 + 20)
+    elif dist_usuario <500:
+        print("Sua viagem de", dist_usuario, "km custará R$", dist_usuario * 0.60 + 20)
+    else:
+        print("Sua viagem de", dist_usuario, "km custará R$", dist_usuario * 0.5 + 20)
 except:
-    print("Fim")
+    print("Opção inválida. Tente novamente!")
 
 
